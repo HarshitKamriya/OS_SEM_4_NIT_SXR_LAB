@@ -1,0 +1,25 @@
+ Unix commands (I have to test all this comands on linux)
+ 1. ls
+ 2. pwd
+ 3. cd 
+ 4. mkdir
+ 5. rmdir
+ 6. cp source destination
+ 7. mv -> move directory
+ 8. rm ->remove file
+ 9. Uname  -> System information
+ 10. locate -> give full path
+ 11. toch -> create file
+ 12. cat -> show what is in file
+ 13. man -> manual file
+ 14. clear
+ 15. ps ->preocessing running
+ 16. grep "" filename -> pattern in file is found
+ 17. echo ->print 
+ 18. wget -> extract url from website
+ 19. whoami -> user details
+ 20. sort -> sort in alphabtical order
+ 21. cal 
+ 22. whereis
+ 23. df -> display disc storage
+ 
