@@ -1,0 +1,76 @@
+system call -> kernel ->user,system
+
+System   ->windows , unix 
+---------------------------------------------------
+process -> createProcess(), fork()
+exit process -> exitProcess(), exit()
+wait process -> waitForSingleObject(), Wait()
+file  -> createFile() , open()
+write -> writeFile()   , write()
+read ->  readFile()   , read()
+close file -> closeHandle() , close()
+
+
+Device Manipulation   ->
+Communictaion
+Protection              (user, others , group)
+    |
+  file 
+
+
+
+user -> System calls <-> OS Services(file services , memory management , process) -> Hardware
+            |
+         editor
+
+
+what will to today -> Read(),Write(), Open()
+  1. man write   => write(fd,"Message",count)
+
+  stdin 
+  stdout 
+  write 1
+  Read 0
+  error 2
+
+
+task : 1
+~$ nano w.c 
+#include<Unistd.h>
+int main(){
+    write(1,"Hello",5);
+    write(1,"Hello",10);
+    write(1,"Hello",2);
+}
+ctrl+x -> to save
+gcc w.c -> to compile
+./a.out -> to get output
+cat w.c -> to see content
+
+
+
+
+task:  2
+return the count
+#include<stdio.h>
+#include<unistd.h>
+int main(){
+    int n;
+    n = write(1,"Hello",5);
+    printf("%d",n);
+}
+
+procedure -> nano x.c 
+             ctrl + x (save)
+             gcc x.c 
+             ./a.out 
+
+
+Read() -> perform this operation now
+buffer  array
+int b[30];
+read(0,b,30);
+write(1,b,30);
+
+
+home work -> Open()
