@@ -1,0 +1,84 @@
+Inode = pointer or number of a file on the hard disk.
+Soft link = link will be removed if file is removed or renamed
+Hard link = Deleting renaming or moving the original file will not affect the hard link.
+
+ln .
+ln -s 
+
+
+
+my-hardlink -> inode 
+my-softlink -> myfile.txt -> inode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Find Files & Directories
+The Two main commands
+. Find
+
+. Locate
+f If "locate" command does not output any result then as root user run "updatedb" }
+Also make sure you have "mlocate" package instaqlled
+. To check = rpm -qa | grep mlocate
+· To install = yum install mlocate
+
+Locate uses a prebuilt database which should be regularly updated, while find iterates over a filesystem to locate files.
+Thus, locate is much faster than find but can be inaccurate if the database is not updated (can be seen as a cache).
+
+· To update locate database run updatedb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cp (Copy):
+
+Copy Command
+
+. The cp command is used for copying files or directories locally on your own computer or server.
+. Primary Use: Duplicating files, creating backups, or moving data between folders on the same system.
+. Key Feature: It is fast and straightforward because it doesn't involve any network protocols or encryption.
+. Syntax: cp [options] source destination
+
+Options:
+· -r (Recursive): Must be used to copy entire folders (directories) and their contents.
+· -i (Interactive): Prompts you before overwriting an existing file.
+. -p (Preserve): Keeps the original file attributes like timestamps and permissions.
+. -v (Verbose): Shows you exactly which files are being copied in real-time.
