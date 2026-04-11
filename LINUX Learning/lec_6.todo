@@ -1,0 +1,20 @@
+Section Contains:
+. File editing
+
+Section-4 Overview
+
+Permission management
+. Access control
+Compressing and uncompressing
+
+Overall this section focuses on fundamental usage of Linux, the basic usage which every Linux
+user must know.
+
+ ln original.txt hardlink.txt
+ ls -li original.txt hardlink.txt -> for creating hard link
+ 
+
+
+### Create soft link: 
+ln -s original.txt softlink.txt
+ls -li original.txt hardlink.txt softlink.txt
