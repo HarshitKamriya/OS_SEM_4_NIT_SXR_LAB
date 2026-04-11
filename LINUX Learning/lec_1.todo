@@ -1,0 +1,20 @@
+### File System Structure and its description
+/-> Root direcotry , the top of the filessystem hierarchy.
+/bin -> Essentina user commands (like ls,cp,cat).
+/boot -> Bootloader files (kernel,initrd , grub configs).
+/dev -> Device files (disks,USB , terminals , etc).
+/etc -> System configurations files and scripts.
+/home -> User home direcotries.
+/lib -> Shared libraries needed by /bin and /sbin
+/media -> mount points for removable media (USB,CD,etc).
+/mnt -> Temporary mount points for filessytems.
+/opt -> Optional/ add - on software packages.
+/proc -> Virtural files representing kernel and process info.
+/root -> Home directory for the root (Superuser)
+/run -> Runtime data (process IDs, cockets,etc).
+/sbin -> Esential system  administration commands.
+/srv -> Data for services (web , FTP,etc).
+/sys -> Kernel and device management interface.
+/tmp -> Temporary files (cleared on reboot)
+/usr -> User program , libraries and documentation
+/var -> Variable data (logs , spools files ,caches).
