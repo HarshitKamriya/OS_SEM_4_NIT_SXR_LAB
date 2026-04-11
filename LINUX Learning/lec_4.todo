@@ -1,0 +1,22 @@
+## wild cards hands on 
+1.  touch abc abcd abcde abcdef abcdefg adbdefgh
+2. touch file1 file2 file3 file4 file5
+3. ls -l
+4. ls -l abc*
+5. ls -l abcd* 
+6. ls -l f*
+7. rm abcd* 
+8. rm f* 
+9. touch heycat1 jumpcat2 sadcatkill laughcat123
+10 rm *cat* 
+11 rm a* 
+12 rm f* 
+13 touch abc{1..9}-xyz
+14 ls -l *t 
+15 ls -l ?cat 
+16 rm ?cat 
+
+* -> represent zero or more characters
+? -> represent a single character 
+[] -> represent a range of characters
+
