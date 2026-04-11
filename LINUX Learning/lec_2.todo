@@ -1,0 +1,23 @@
+cd -> Change current directory
+pwd -> Current working directory.
+ls -> list all direcotry.
+
+
+There are two paths to migrate to a filessystem
+1. Absolute Path. -> begin with "/" (eg : cd/var/log/samba)
+2. Relative Path. -> it identifies location relative to your current location. 
+(eg: cd var , cd log , cd samba)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
