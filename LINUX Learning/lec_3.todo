@@ -1,0 +1,13 @@
+### Creating files and direcotries
+1. touch flie_name -> for creating file
+2. mkdir directory_name -> for creating folder
+3. cp stands for copy (cp file_name copied_file_name)
+4. vi stands for visual , it is for text editor to visulaize and modify files. (vi file_name)
+(we can create multiple files and directory with one line just write same as what we were doing just give one space and write another file/directory name which you want to create )
+
+
+## Removing files and direcotries
+rm -f direcotry_name -> To remove direcotry without asking delete or not . (use carefull can wipe your system)
+rm -r direcotry_name -> to remove direcotry by as,ing first.
+rm filename -> removes a file.
+Truncate filename -> empties a file without delteing it.
