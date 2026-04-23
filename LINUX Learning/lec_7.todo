@@ -1,0 +1,20 @@
+ACL -> Access control list 
+
+Basic commands 
+1. Check if ACL is supported 
+   mount | grep acl 
+
+2. View ACL of a file/direcotry 
+   getfacl filename 
+
+3. Set ACL for a user 
+   setfacl -m u:alice:r file.txt 
+
+4. Set ACL for a group 
+   setfacl -m g:developers:rw file.txt 
+
+5. Remove ACL
+   setfacl -x u:alice file.txt 
+
+6. Default ACL on a direcotry
+   setfacl -a -m u:alice:rw project/

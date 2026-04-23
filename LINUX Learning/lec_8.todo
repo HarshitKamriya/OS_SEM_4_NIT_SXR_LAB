@@ -1,0 +1,17 @@
+# Viewing and creating Hidder files 
+1. Hidder files are used to store configuration settings and system - related data.
+2. They are typically hidden to prevent accidenatal changes or deletions by users.
+3. Viewing and creating hidden files allows users to manage and cuztomize system behavior when needed.
+
+
+
+
+
+
+
+
+
+### Help commands
+1. command --help  (eg: ls --help)
+2. man command (eg: man ls)
+3. info command 
